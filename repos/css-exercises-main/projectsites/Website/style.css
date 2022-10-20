@@ -5,7 +5,7 @@ body {
 }
 
 div {
-    color: rgb(255, 255, 255);
+    color: hsl(0, 23%, 95%);
     border: 1px solid #333;
     background-color: blueviolet;
 }
@@ -13,4 +13,42 @@ div {
 .base-container {
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 10px;
+    gap: 200px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.footer ul {
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
 }
