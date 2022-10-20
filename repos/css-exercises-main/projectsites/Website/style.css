@@ -4,13 +4,13 @@ body {
     margin: 0px;
 }
 
+div {
+    color: rgb(255, 255, 255);
+    border: 1px solid #333;
+    background-color: blueviolet;
+}
+
 .base-container {
     display: flex;
     flex-direction: column;
-}
-
-.header, .one-body, .two-body, .three-body, .four-body, .footer {
-    color: blue;
-    border: 3px solid #333;
-    background-color: blueviolet;
 }
