@@ -1,0 +1,17 @@
+/*
+300 pixels wide
+height so that it retains its original square proportions (Auto)
+*/
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+/*
+200 pixels wide
+make its height twice as big as its width wide*2
+*/
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
