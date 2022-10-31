@@ -7,7 +7,7 @@ body {
 div {
     color: hsl(0, 23%, 95%);
     border: 0px solid #333;
-    background-color: blueviolet;
+    background-color: rgb(43, 46, 226);
 }
 
 .base-container {
@@ -115,6 +115,34 @@ button {
     border-radius: 5px;
     border: solid #3382F6;
     border-color: #3382F6;
+}
+
+.three-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+    height: 500px;
+}
+
+.three-bodyfirst {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 25px;
+    font-style: italic;
+    width: 400px;
+}
+
+.three-bodysecond {
+    display: flex;
+    padding-left: 120px;
+    background-color: #E5E7EB;
+    color: #1f2937;
 }
 
 .footer {
