@@ -123,9 +123,9 @@ button {
     background-color: #E5E7EB;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:center;
-    gap: 5px;
-    height: 500px;
+    align-items:flex-end;
+    gap: 10px;
+    padding: 50px 160px;
 }
 
 .three-bodyfirst {
@@ -135,7 +135,6 @@ button {
     color: #1f2937;
     font-size: 25px;
     font-style: italic;
-    width: 400px;
 }
 
 .three-bodysecond {
@@ -145,6 +144,9 @@ button {
     color: #1f2937;
 }
 
+.four-body {
+    display: flex;
+}
 .footer {
     display: flex;
     align-items: center;
