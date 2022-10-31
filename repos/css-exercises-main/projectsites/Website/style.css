@@ -7,7 +7,6 @@ body {
 div {
     color: hsl(0, 23%, 95%);
     border: 0px solid #333;
-    background-color: rgb(43, 46, 226);
 }
 
 .base-container {
@@ -146,6 +145,40 @@ button {
 
 .four-body {
     display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 50px 160px
+}
+
+.four-bodyincontainer {
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+
+.four-bodycontainer {
+    display: flex;
+    background-color: #3382F6;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px 60px;
+}
+
+.four-bodyfirst {
+    font-weight: bolder;
+}
+
+.four-bodysecond {
+    font-size: 14px;
+}
+
+.sign-up {
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: white;
+    padding: 0px 10px;
 }
 .footer {
     display: flex;
